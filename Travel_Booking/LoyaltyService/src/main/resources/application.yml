@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: LoyaltyService
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+

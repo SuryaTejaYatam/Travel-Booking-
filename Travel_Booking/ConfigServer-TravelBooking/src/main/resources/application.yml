@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+
+spring:
+  application:
+    name: ConfigServer-TravelBooking
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/SuryaTejaYatam/ConfigServer-TravelBooking
+          clone-on-start: true
